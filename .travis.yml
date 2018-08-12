@@ -3,6 +3,6 @@ compiler: gcc
 script: make
 deploy:
     provider: releases
-    api-key: "619dfc40808b661c03936245c64a0d7d3cba92f1"
+    api-key: "81cbef8e62a34bdf5e213f47508e43cce91d6b34"
     file: "hello"
     skip_cleanup: true
