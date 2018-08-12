@@ -2,9 +2,9 @@ language: C
 compiler: gcc
 script: make
 deploy:
-	provider: releases
-	api-key: "619dfc40808b661c03936245c64a0d7d3cba92f1"
-	file: "hello"
-	skip_cleanup: true
-	on:
-		tags: true
+    provider: releases
+    api-key: "619dfc40808b661c03936245c64a0d7d3cba92f1"
+    file: "hello"
+    skip_cleanup: true
+    on:
+        tags: true
