@@ -5,4 +5,4 @@ CFLAGS=-Iinclude
 	$(CC) -c -o $@ $< $(CFLAGS)
 
 hello: main.o hello.o
-	$(CC) -o bin/$@.exe main.o hello.o
+	$(CC) -o $@ main.o hello.o
