@@ -1,4 +1,4 @@
-# Hello [![Build Status](https://travis-ci.com/Hyperdraw/hello.svg?branch=master)](https://travis-ci.com/Hyperdraw/hello)
+# Hello [![Status](https://travis-ci.com/Hyperdraw/hello.svg?branch=master)](https://travis-ci.com/Hyperdraw/hello)
 A simple hello world program to demonstrate C and Makefiles.
 
 ## Building Hello
