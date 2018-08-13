@@ -3,8 +3,11 @@ compiler: gcc
 script: make
 deploy:
   provider: releases
+  skip_cleanup: true
   api_key:
     secure: CEBCSfbEEOBr5cv2Bhx527hA27pKTjX2ERJ2NoDpa29L5I0P1MitSaaPVg1fxYXvjUxrAox48Y/vAcZRBjcNNMLUp41P8E1tyxtiggi0XXhvpOsH5d1+M1WjYuIFoYhs67uGRKg3et7t8/LGO98p6Qt+46N4GQ844uzbD58PqxaWydICasllTNCiORaBMMvIMWou3XHprW2ZG9qDSo5KikVZghXMh2sjdIfTwn1j8/FKJWpN2gyezE+NAJYSEGNzYDdMHoihZDhSojHdBHWOMXQUog25xXKHEt6Cs6jYbWlwRUeq3Sn2A1p2YeLqkX1IWOTi9MtoOwWK3unb4odVMvPNp594cLdRrWDW4riA50wV+fDYtvTxVFOgCfvD58S6c7IQnrpxTPe3gUHtRBjk3EWaLObTkbqHOtBKNXXUdNSZr7/IV6gz9fGLezMHy1guk3RYWDSTRinSog88hUBslD8yF/m7rHnr1CRFvcAME3s/zKw0kB6xBwfWiTDhD6YqT1Pk3nlhVnKTwgygP1C4ySoKEY8pe47hjTNvqa+xVQfGWwBiJ1YaWOzaWwhVFR5sl3oNJq67inSTaj4Q6M9ij2rHfZy4HDYYCOOJNaF7NpAqIf7koEAHBifNxNELvMc71Gx/bhNhql/9od02PlhIsvtvrbR/nEK0vYDfph13LIo=
+  file_glob: true
   file: hello
   on:
+    tags: true
     repo: Hyperdraw/hello
