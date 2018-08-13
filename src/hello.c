@@ -3,4 +3,5 @@
 
 void hello(){
 	printf("Hello, world!\n");
+    system("PAUSE");
 }
